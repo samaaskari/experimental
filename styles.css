@@ -7,8 +7,8 @@ body {
 .parallax {
   -webkit-perspective: 100px;
           perspective: 100px;
-    height: 100vh;    /* The size/length of the parallax window itself. 1vh = 1% of the viewport height */
-    width: 100vw;
+    height: 90vh;    /* The size/length of the parallax window itself. 1vh = 1% of the viewport height */
+    width: 90vw;
     overflow-x: hidden;
     overflow-y: auto; 
     position: absolute;
@@ -21,8 +21,8 @@ body {
    /* display: block;
     position: absolute;
     bottom: 0; */
-  width: 75%;
-  height: 25vw;
+  width: 90%;
+  height: 25%;
   margin: auto;
 }
 
