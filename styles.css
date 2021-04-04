@@ -1,3 +1,83 @@
 body {
-  color: purple;
+  /* page defaults */
+}
+
+/* parallax ********************************************************************/
+
+.parallax {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+    height: 100vw;    /* The size/length of the parallax window itself. 1vw = 1% of the viewport */
+    overflow-x: hidden;
+    overflow-y: auto; 
+    position: absolute;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+.parallaxLayer img { /* Keeps everything level horizontally */
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.parallaxLayer_0 {
+  -webkit-transform: translateZ(-300px) scale(4);
+          transform: translateZ(-300px) scale(4);
+    
+}
+
+.parallaxLayer_1 {
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
+}
+
+.parallaxLayer_2 {
+  -webkit-transform: translateZ(-200px) scale(3.1);
+          transform: translateZ(-200px) scale(3.1);
+    margin-top: 150%;
+    margin-left: 13%;
+  
+}
+
+.parallaxLayer_3 {
+  -webkit-transform: translateZ(-150px) scale(2.5);
+          transform: translateZ(-150px) scale(2.5);
+        margin-left: 10.5%;
+        margin-top: 0%;
+}
+
+.parallaxLayer_4 {
+  -webkit-transform: translateZ(-125px) scale(2);
+          transform: translateZ(-125px) scale(2);
+        margin-left: 15%;
+        margin-top: -10%;
+
+}
+
+.parallaxLayer_5 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
+    margin-left: 10%;
+    margin-top: 250%;
+}
+
+.parallaxLayer_6 {
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
+    margin-left: 0%;
+    margin-top: 180%; /* Puts space between layer 4 of the parallax and the introduction paragraphs */
+}
+
+
+.parallaxCover {
+    background: #000000;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 80vw;  /* what pushes down the top banner */
+    top: 100%; /*What moves the cover from visible to not, and seperates it from the city divider*/
 }
