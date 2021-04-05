@@ -13,19 +13,19 @@ body {
     overflow-x: hidden;
     overflow-y: auto; 
     position: absolute;
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 
 
 .parallaxLayer { /* Keeps everything level horizontally */
-   /* display: block;
-    position: absolute; */
+   /* display: block; */
+    position: absolute;
     bottom: 0;
   width: 90%;
   height: 25%;
   margin: auto;
-  border: 2px solid black;
+  border: 2px solid gray;
 }
 
 
