@@ -80,4 +80,5 @@ body {
 .moreContent {
   background-color: #888;
   margin-top: 90vh;
+  position: absolute;
 }
