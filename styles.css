@@ -10,7 +10,7 @@ body {
           perspective: 100px;
     height: 90vh;    /* The size/length of the parallax window itself. 1vh = 1% of the viewport height */
     width: 100vw;
-    margin-top: 0px;
+    margin: auto;
     overflow-x: hidden;
     overflow-y: auto; 
     position: absolute;
@@ -28,7 +28,8 @@ body {
 .parallaxLayer_0 {
   background-color: red;
   -webkit-transform: translateZ(-600px) scale(7);
-          transform: translateZ(-600px) scale(7);  
+          transform: translateZ(-600px) scale(7);
+  margin-top:0px;
 }
 
 .parallaxLayer_1 {
