@@ -18,7 +18,7 @@ body {
 
 
 .parallaxLayer { /* Keeps everything level horizontally */
-   display: block;
+    display: block;
     position: absolute;
     bottom: 0;
   width: 100%;
@@ -30,55 +30,55 @@ body {
 
 .parallaxLayer_0 {
   background-color: red;
-  /* -webkit-transform: translateZ(-300px) scale(4);
-          transform: translateZ(-300px) scale(4); */
+  -webkit-transform: translateZ(-300px) scale(4);
+          transform: translateZ(-300px) scale(4);
     
 }
 
 .parallaxLayer_1 {
   background-color: orange;
-  /* -webkit-transform: translateZ(-250px) scale(3.5);
-          transform: translateZ(-250px) scale(3.5); */
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
 }
 
 .parallaxLayer_2 {
   background-color: yellow;
-  /* -webkit-transform: translateZ(-200px) scale(3.1);
+  -webkit-transform: translateZ(-200px) scale(3.1);
           transform: translateZ(-200px) scale(3.1);
     margin-top: 150%;
-    margin-left: 13%; */
+    margin-left: 13%;
 }
 
 .parallaxLayer_3 {
   background-color: green;
-  /* -webkit-transform: translateZ(-150px) scale(2.5);
+  -webkit-transform: translateZ(-150px) scale(2.5);
           transform: translateZ(-150px) scale(2.5);
         margin-left: 10.5%;
-        margin-top: 0%; */
+        margin-top: 0%;
 }
 
 .parallaxLayer_4 {
   background-color: blue;
-  /* -webkit-transform: translateZ(-125px) scale(2);
+  -webkit-transform: translateZ(-125px) scale(2);
           transform: translateZ(-125px) scale(2);
         margin-left: 15%;
-        margin-top: -10%; */
+        margin-top: -10%;
 }
 
 .parallaxLayer_5 {
   background-color: purple;
-  /* -webkit-transform: translateZ(-50px) scale(1.5);
+  -webkit-transform: translateZ(-50px) scale(1.5);
           transform: translateZ(-50px) scale(1.5);
     margin-left: 10%;
-    margin-top: 250%; */
+    margin-top: 250%;
 }
 
 .parallaxLayer_6 {
   background-color: brown;
-  /* -webkit-transform: translateZ(0px) scale(1);
+  -webkit-transform: translateZ(0px) scale(1);
           transform: translateZ(0px) scale(1);
     margin-left: 0%;
-    margin-top: 180%; /* Puts space between layer 4 of the parallax and the introduction paragraphs */ */
+    margin-top: 180%; /* Puts space between layer 4 of the parallax and the introduction paragraphs */
 }
 
 
