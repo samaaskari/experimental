@@ -5,18 +5,18 @@ body {
 /* parallax ********************************************************************/
 /* https://stackoverflow.com/questions/11313783/i-think-css3-transform-translatez-is-equal-to-scale-by-some-means */
 
-.parallax {
+.parallaxArea {
   -webkit-perspective: 100px;
           perspective: 100px;
     height: 90vh;    /* The size/length of the parallax window itself. 1vh = 1% of the viewport height */
     width: 100vw;
-    margin: auto;
+    margin: 0px auto;
     overflow-x: hidden;
     overflow-y: auto; 
     position: absolute;
 }
 
-.parallaxLayer { /* Keeps everything level horizontally */
+.parallax { /* Keeps everything level horizontally */
     display: block;
     /* position: absolute;
     bottom: 0; */
@@ -25,44 +25,43 @@ body {
   margin: auto;
 }
 
-.parallaxLayer_0 {
+.layer_0 {
   background-color: red;
   -webkit-transform: translateZ(-600px) scale(7);
           transform: translateZ(-600px) scale(7);
-  margin-top:0px;
 }
 
-.parallaxLayer_1 {
+.layer_1 {
   background-color: orange;
   -webkit-transform: translateZ(-500px) scale(6);
           transform: translateZ(-500px) scale(6);
 }
 
-.parallaxLayer_2 {
+.layer_2 {
   background-color: yellow;
   -webkit-transform: translateZ(-400px) scale(5);
           transform: translateZ(-400px) scale(5);
 }
 
-.parallaxLayer_3 {
+.layer_3 {
   background-color: green;
   -webkit-transform: translateZ(-300px) scale(4);
           transform: translateZ(-300px) scale(4);
 }
 
-.parallaxLayer_4 {
+.layer_4 {
   background-color: blue;
   -webkit-transform: translateZ(-200px) scale(3);
           transform: translateZ(-200px) scale(3);
 }
 
-.parallaxLayer_5 {
+.layer_5 {
   background-color: purple;
   -webkit-transform: translateZ(-100px) scale(2);
           transform: translateZ(-100px) scale(2);
 }
 
-.parallaxLayer_6 {
+.layer_6 {
   background-color: brown;
   -webkit-transform: translateZ(0px) scale(1);
           transform: translateZ(0px) scale(1);
