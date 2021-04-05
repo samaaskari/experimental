@@ -5,8 +5,8 @@ body {
 /* parallax ********************************************************************/
 
 .parallax {
-  -webkit-perspective: 100px;
-          perspective: 100px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
     height: 90vh;    /* The size/length of the parallax window itself. 1vh = 1% of the viewport height */
     width: 100vw;
     margin: auto;
@@ -21,8 +21,8 @@ body {
     display: block;
     position: absolute;
     bottom: 0;
-  width: 100%;
-  height: 25%;
+  width: 600px;
+  height: 300px;
   margin: auto;
   border: 2px solid black;
 }
@@ -30,56 +30,49 @@ body {
 
 .parallaxLayer_0 {
   background-color: red;
-  -webkit-transform: translateZ(-300px) scale(4);
-          transform: translateZ(-300px) scale(4);
-        margin-left: 0%;
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
     
 }
 
 .parallaxLayer_1 {
   background-color: orange;
-  -webkit-transform: translateZ(-250px) scale(3.5);
-          transform: translateZ(-250px) scale(3.5);
-        margin-left: 0%;
+  -webkit-transform: translateZ(50px) scale(1.1);
+          transform: translateZ(50px) scale(1.1);
 }
 
 .parallaxLayer_2 {
   background-color: yellow;
-  -webkit-transform: translateZ(-200px) scale(3);
-          transform: translateZ(-200px) scale(3);
-        margin-left: 0%;
+  -webkit-transform: translateZ(75px) scale(1.2);
+          transform: translateZ(75px) scale(1.2);
         margin-top: 150%;
 }
 
 .parallaxLayer_3 {
   background-color: green;
-  -webkit-transform: translateZ(-150px) scale(2.5);
-          transform: translateZ(-150px) scale(2.5);
-        margin-left: 0%;
+  -webkit-transform: translateZ(100px) scale(1.25);
+          transform: translateZ(100px) scale(1.25);
         margin-top: 0%;
 }
 
 .parallaxLayer_4 {
   background-color: blue;
-  -webkit-transform: translateZ(-100px) scale(2);
-          transform: translateZ(-100px) scale(2);
-        margin-left: 0%;
+  -webkit-transform: translateZ(200px) scale(1.67);
+          transform: translateZ(200px) scale(1.67);
         margin-top: -10%;
 }
 
 .parallaxLayer_5 {
   background-color: purple;
-  -webkit-transform: translateZ(-50px) scale(1.5);
-          transform: translateZ(-50px) scale(1.5);
-    margin-left: 0%;
+  -webkit-transform: translateZ(350px) scale(3.34);
+          transform: translateZ(350px) scale(3.34);
     margin-top: 250%;
 }
 
 .parallaxLayer_6 {
   background-color: brown;
-  -webkit-transform: translateZ(0px) scale(1);
-          transform: translateZ(0px) scale(1);
-    margin-left: 0%;
+  -webkit-transform: translateZ(450px) scale(10);
+          transform: translateZ(450px) scale(10);
     margin-top: 180%; /* Puts space between layer 4 of the parallax and the introduction paragraphs */
 }
 
