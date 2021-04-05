@@ -78,7 +78,5 @@ body {
 
 
 .moreContent {
-  width: 100%;
-  height: 300%;
-  background-color: black;
+  background-color: #333;
 }
