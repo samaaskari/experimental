@@ -19,8 +19,8 @@ body {
 
 .parallaxLayer { /* Keeps everything level horizontally */
     display: block;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
   width: 600px;
   height: 300px;
   margin: auto;
