@@ -18,16 +18,13 @@ body {
 
 .parallax { /* Keeps everything level horizontally */
    position: absolute;
-   top: 0;
-   left: 0;
-   bottom: 0;
-   right: 0;
+   display: block;
 }
 
 .layer_0 {
   background-color: red;
-  width: 600px;
-  height: 300px;
+  /* width: 600px;
+  height: 300px; */
   -webkit-transform: translateZ(-600px) scale(7);
           transform: translateZ(-600px) scale(7);
 }
