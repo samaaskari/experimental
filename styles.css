@@ -8,7 +8,7 @@ body {
 .parallaxArea {
   -webkit-perspective: 100px;
           perspective: 100px;
-    perspective-origin: 50% 50%;
+    perspective-origin: center center;
     height: 90vh;    /* The size/length of the parallax window itself. 1vh = 1% of the viewport height */
     width: 100vw;
     margin: 0px auto;
