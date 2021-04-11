@@ -1,14 +1,14 @@
 $(function () {
   function sumSection() {
-    return $(".container").height();
+    return $(".timeline .container").height();
   }
   function setDimensionBar() {
-    $(".bar").css({
+    $(".timeline .bar").css({
       "height": $(window).height() / sumSection() * 100 + "%" });
 
   }
   function setSection() {
-    $.each($("section"), function (i, element) {
+    $.each($(".timeline section"), function (i, element) {
       $(element).css({
         "min-height": $(window).height() });
 
@@ -16,8 +16,8 @@ $(function () {
   }
 
   function addBehaviours() {
-    let sections = $("section");
-    $.each($(".node"), function (i, element) {
+    let sections = $(".timeline section");
+    $.each($(".timeline .node"), function (i, element) {
       $(element).on("click", function (e) {
         e.preventDefault();
         let scroll = $(sections[i]).offset().top;
@@ -29,8 +29,8 @@ $(function () {
   }
 
   function arrangeNodes() {
-    $(".node").remove();
-    $.each($("section"), function (i, element) {
+    $(".timeline .node").remove();
+    $.each($(".timeline section"), function (i, element) {
       let name = $(element).data("name");
       let node = $("<li class='node'><span>" + name + "</span></li>");
       $(".timeline").append(node);
@@ -44,7 +44,7 @@ $(function () {
 
   $(window).on("scroll", function () {
     let top = window.scrollY / sumSection() * 100;
-    $(".bar").css({
+    $(".timeline .bar").css({
       "top": top + "%" });
 
 
