@@ -15,7 +15,7 @@ body {
     margin: 0px auto;
     overflow-x: hidden;
     overflow-y: auto;
-    position: absolute;
+    position: fixed;
 }
 
 .parallax { /* Keeps everything level horizontally */
