@@ -6,6 +6,7 @@ body {
 /* https://stackoverflow.com/questions/11313783/i-think-css3-transform-translatez-is-equal-to-scale-by-some-means */
 
 .parallaxArea {
+    display: block;
   -webkit-perspective: 100px;
           perspective: 100px;
     perspective-origin: center center;
@@ -77,6 +78,6 @@ body {
 
 .moreContent {
   background-color: #888;
-  margin-top: 90vh;
-  position: absolute;
+  /* margin-top: 90vh; 
+  position: absolute; */
 }
